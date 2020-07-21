@@ -25,7 +25,7 @@ def nyc_pigeon_organizer(data)
 #    p key #=> :color, :gender, :lives
     data[key].each do |inner_key, inner_value|
 #      p inner_key
-         
+      p data[key][inner_key]
     end
   end
   
