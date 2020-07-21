@@ -22,9 +22,10 @@ def nyc_pigeon_organizer(data)
   # write your code here!
   
   data.each do |key, value|
-    p key #=> :color, :gender, :lives
+#    p key #=> :color, :gender, :lives
     data[key].each do |inner_key, inner_value|
-      p inner_key
+#      p inner_key
+         
     end
   end
   
